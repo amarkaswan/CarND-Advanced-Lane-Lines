@@ -20,10 +20,14 @@ The goals of this project are the following:
 
 Now, I will describe the process that I followed for each of the above mentioned objective.
 
-### Calculating the Camera Calibration Matrix and Distortion Coefficeints
+### Camera Calibration Matrix and Distortion Coefficeints
 
 First, I have extracted corners pixels in a set of chessboard images using `cv2.findChessboardCorners()` function and then passed these cornernrs points to `cv2.calibrateCamera()` function for calculating the camera calibration matrix and distortion coefficients. 
 
+### Distortion Correction
+In this step, I have used the camera calibration matrix and distortion coefficients to undistort the images. To correct the distortions, I have used 'cv2.undistort()' function. Belowe is an example of a distorted and undistorted image.
+
+### Perspective Transform
 
 The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing your pipeline on single frames.  
 
