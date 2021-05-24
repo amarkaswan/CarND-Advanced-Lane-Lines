@@ -22,7 +22,9 @@ Now, I will describe the process that I followed for each of the above mentioned
 
 ### Calculating the Camera Calibration Matrix and Distortion Coefficeints
 
-First, I have used a set of chess board images to find  used `cv2.findChessboardCorners()`
+First, I have extracted corners pixels in a set of chessboard images using `cv2.findChessboardCorners()` function and then passed these cornernrs points to `cv2.calibrateCamera()` function for calculating the camera calibration matrix and distortion coefficients.
+
+
 The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing your pipeline on single frames.  
 
 
