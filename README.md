@@ -2,12 +2,12 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-#### <div style="text-align: justify">  This project aims is to write a software pipeline to identify the lane boundaries in a video having distortions, curves, shadows and different road pavements. The following section briefly describes the objective ot this project. </div>
+#### <div style="text-align: justify">  This project aims is to write a software pipeline to identify the lane boundaries in a video having distortions, curves, shadows and different road pavements. The following section briefly describes the steps followed during this project. </div>
 
 
-## Project Objectives
+## Project Steps
 
-The goals of this project are the following:
+The steps of this project are as follows.
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
