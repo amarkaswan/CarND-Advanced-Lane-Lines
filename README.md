@@ -24,6 +24,7 @@ Now, I will describe the process that I followed for each of the above mentioned
 
 <div style="text-align: justify">  Image Distortion: Camera captures the 3D objects and transforms them into 2D images. However, when this transform is not perfect, shapes, sizes, orientations, and positions of some objects are changed. This phenomenon is known as image distortion. </div>
 
+
 First, I have extracted corners pixels in a set of chessboard images using `cv2.findChessboardCorners()` function and then passed these cornernrs points to `cv2.calibrateCamera()` function for calculating the camera calibration matrix and distortion coefficients. 
 
 ### Distortion Correction
