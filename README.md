@@ -7,18 +7,18 @@
 
 ## Solution Approach
 
-The steps of this project are as follows.
+I have implemented the desired software pipeline with the help of the following eight steps. 
 
 * First, I have computed the camera calibration matrix and distortion coefficients given a set of chessboard images.
-* Next, I have applied a distortion correction to raw image.
-* Then, I haved used color transforms and gradients to create a thresholded binary image of the undistorted image.
-* Next, I have applied a perspective transform to rectify binary image or obtain the <strong>birds-eye view</strong>. Let's call it warped image.
-* <div style="text-align: justify">  After that, I haved detected lane pixels in the warped image using sliding window and search around methods and obained the lane lines by fitting second order polynomials with these pixels. </div>
-* Next, I have calculated the curvature of the lane and position of the vehicle with respect to the lane center.
-* Then, I have warped the detected lane lines back onto the original image (i.e., raw image). Let's call it unwarped image.
-* Finally, I have printed the lane curvaature and position of vehicle on the unwarped image.
+* Next, I have applied a distortion correction to the raw image.
+* Then, I have used color transforms and gradients to create a thresholded binary image of the undistorted image.
+* Next, I have applied a perspective transform to rectify binary image or obtain the <strong>birds-eye view</strong>. Let's call it a warped image.
+* <div style="text-align: justify">  After that, I have detected lane pixels in the warped image using the sliding window and search around methods and then obtained the lane lines by fitting second-order polynomials with these pixels. </div>
+* Next, I have calculated the curvature of the lane and position of the vehicle from the lane center.
+* Then, I have warped the detected lane lines back onto the original image (i.e., raw image). Let's call it an unwarped image.
+* Finally, I have printed the lane curvature and position of the vehicle on the unwarped image.
 
-Now, I will describe the process that I followed for each of the above mentioned objective.
+Now, I will describe the steps mentioned above along with related terms as follows. 
 
 ### Camera Calibration Matrix and Distortion Coefficeints
 
