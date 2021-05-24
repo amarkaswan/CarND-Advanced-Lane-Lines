@@ -1,11 +1,11 @@
-## Advanced Lane Finding
+# Advanced Lane Finding
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
 In this project, our goal is to write a software pipeline to identify the lane boundaries in a video having distortion, curve, shadow and different road pavements. The following section briefly describes the objective ot this project. 
 
 
-# Project Objectives
+## Project Objectives
 ---
 
 The goals of this project are the following:
