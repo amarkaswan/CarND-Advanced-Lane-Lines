@@ -5,18 +5,18 @@
 #### <div style="text-align: justify">  This project aims to write a software pipeline to identify the lane boundaries in a video with distortions, curves, shadows, and different road pavements. The following section briefly describes the steps followed to implement the desired software pipeline. </div>
 
 
-## Project Steps
+## Solution Approach
 
 The steps of this project are as follows.
 
-* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
-* Apply a distortion correction to raw images.
-* Use color transforms, gradients, etc., to create a thresholded binary image.
-* Apply a perspective transform to rectify binary image ("birds-eye view").
-* Detect lane pixels and fit to find the lane boundary.
-* Determine the curvature of the lane and vehicle position with respect to center.
-* Warp the detected lane boundaries back onto the original image.
-* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+* First, I have computed the camera calibration matrix and distortion coefficients given a set of chessboard images.
+* Next, I have applied a distortion correction to raw image.
+* Then, I haved used color transforms and gradients to create a thresholded binary image of the undistorted image.
+* Next, I have applied a perspective transform to rectify binary image or obtain the <strong>birds-eye view</strong>. Let's call it warped image.
+* <div style="text-align: justify">  After that, I haved detected lane pixels in the warped image using sliding window and search around methods and obained the lane lines by fitting second order polynomials with these pixels. </div>
+* Next, I have calculated the curvature of the lane and position of the vehicle with respect to the lane center.
+* Then, I have warped the detected lane lines back onto the original image (i.e., raw image). Let's call it unwarped image.
+* Finally, I have printed the lane curvaature and position of vehicle on the unwarped image.
 
 Now, I will describe the process that I followed for each of the above mentioned objective.
 
