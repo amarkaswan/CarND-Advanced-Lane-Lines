@@ -28,7 +28,7 @@ Now, I will describe the steps mentioned above along with related terms as follo
 <div style="text-align: justify">  <strong>Camera Calibration</strong>: It is the process of finding the parameters to estimate the position of the camera in 3D environment and position of lens and image sensor. These parameters are used to measure and correct the distortion in the captured images. </div>
 <p></p>
 
-First, I have extracted corners pixels in a set of chessboard images using `cv2.findChessboardCorners()` function and then passed these cornernrs points to `cv2.calibrateCamera()` function for calculating the camera calibration matrix and distortion coefficients. 
+To obtain the camera calibration matrix and distortion coefficeints, I have first extracted corners pixels in a set of chessboard images using `cv2.findChessboardCorners()` function and then passed these cornernrs points to `cv2.calibrateCamera()` function. 
 
 ### Distortion Correction
 In this step, I have used the camera calibration matrix and distortion coefficients to undistort the images. To correct the distortions, I have used 'cv2.undistort()' function. Belowe is an example of a distorted and undistorted image.
