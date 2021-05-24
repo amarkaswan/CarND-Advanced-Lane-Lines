@@ -31,7 +31,7 @@ Now, I will describe the steps mentioned above along with related terms as follo
 To obtain the camera calibration matrix and distortion coefficeints, I have first extracted corners pixels in a set of chessboard images using `cv2.findChessboardCorners()` function and then passed these cornernrs points to `cv2.calibrateCamera()` function. 
 
 ### Distortion Correction
-In this step, I have used the camera calibration matrix and distortion coefficients to undistort the images. To correct the distortions, I have used 'cv2.undistort()' function. Belowe is an example of a distorted and undistorted image.
+In this step, I have used the camera calibration matrix and distortion coefficients to undistort the images. To correct the distortions, I have used `cv2.undistort()` function. Belowe is an example of a distorted and undistorted image.
 
 ### Perspective Transform
 
