@@ -2,7 +2,7 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-#### <div style="text-align: justify">  This project aims is to write a software pipeline to identify the lane boundaries in a video having distortions, curves, shadows and different road pavements. The following section briefly describes the steps followed during this project. </div>
+#### <div style="text-align: justify">  This project aims is to write a software pipeline to identify the lane boundaries in a video having distortions, curves, shadows and different road pavements. The following section briefly describes the steps followed to wirte the desired software pipeline. </div>
 
 
 ## Project Steps
