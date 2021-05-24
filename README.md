@@ -6,7 +6,6 @@ In this project, our goal is to write a software pipeline to identify the lane b
 
 
 ## Project Objectives
----
 
 The goals of this project are the following:
 
