@@ -6,7 +6,7 @@
 
 
 ## Solution Approach
-
+---
 I have implemented the desired software pipeline with the help of the following eight steps. 
 
 * First, I have computed the camera calibration matrix and distortion coefficients given a set of chessboard images.
