@@ -81,7 +81,7 @@ Below is an example of a distorted and undistorted road image.
 <p></p>
 
 ### Color and Gradient Thresholing
-In this step, I have first obtained the thresholded gradients of the grayscale and S-channel warped images in the <em>x</em> direction. Then, I have determined the thresholded magnitude and direction of the gradient of the S-channel warped Image. Finally, I have combined all the thresholded images such that most of the lane pixels are retained. This step is implemented in the `cell 4` of the jupyter notebookBelow is an example of such threholding. 
+In this step, I have first obtained the thresholded gradients of the grayscale and S-channel warped images in the <em>x</em> direction. Then, I have determined the thresholded magnitude and direction of the gradient of the S-channel warped Image. Finally, I have combined all the thresholded images such that most of the lane pixels are retained. This step is implemented in the `cell 4` of the jupyter notebook. Below is an example of such threholding. 
 
 <p></p>
  <table>
