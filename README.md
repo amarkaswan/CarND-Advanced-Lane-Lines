@@ -236,7 +236,14 @@ This is the last step of the software pipeline. In this step, I have embedded th
 
 ## Software Pipelilne for Video
 
-I have utilized all the steps discussed above in the software pipeline for video. It is implemented in the `cell 13` of the jupyter notebook and processed video can be seen <a href="https://github.com/amarkaswan/CarND-Advanced-Lane-Lines/blob/main/project_video_output.mp4" target="_top">here</a>.
+I have utilized all the steps discussed above in the software pipeline to process a video for traking the driving lane. It is implemented in the `cell 13` of the jupyter notebook.
+
+## Experimental Result
+The output of the software pipeline for an input is shown below.
+
+
+https://user-images.githubusercontent.com/14021388/218276610-271babd7-2d5b-455a-afab-d2336ff89955.mp4
+
 
 ## Discussions
 
